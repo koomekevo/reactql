@@ -1,7 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import ApolloClient from "apollo-boost";
 
 function App() {
+  const client = new ApolloClient({
+    uri: "[uri link]",
+  });
+
   return (
     <div className="App">
       <header className="App-header">
