@@ -1,10 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import ApolloClient from "apollo-boost";
+import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 
 function App() {
   const client = new ApolloClient({
-    uri: "[uri link]",
+    uri: "https://api.spacex.land/graphql",
+    cache: new InMemoryCache(),
   });
 
   return (
