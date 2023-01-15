@@ -10,9 +10,9 @@ This is a project made with React.js and GraphQL.
 
 To get a local copy up and running follow these simple example steps.
 
-Clone the repo with `https://github.com/koomekevo/ReactMastery.git`
+Clone the repo with `https://github.com/koomekevo/reactql.git`
 
-Run `cd ReactMastery` to access app.
+Run `cd reactql` to access app.
 
 Run `npm install` to install dependencies.
 
